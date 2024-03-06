@@ -16,35 +16,56 @@ i++;
 console.log(`i++ brings i to ${i}`);
 
 i++;
+
 console.log(`i++, again, brings i to ${i}`);
+i++;
 
 // TODO: increment i to 3
 console.log(`i++, again, brings i to ${i}`);
+i++
+
 
 // TODO: increment i to 4
 console.log(`i++, again, brings i to ${i}`);
-
+i++
 // TODO: increment i to 5
 console.log(`i++, again, brings i to ${i}`);
-
+i++
 // TODO: increment i to 10.
 // Then log out that value to the console.
+for (let t = 0; t<11; t++){
+  console.log(t);
+}
+//let i = 0;
+//for (let i=0; i<11; i++){
+//  console.log
 
 // Part 2
 // For loops can take care of this in just 3 lines!
 console.log("**** Introducing the for-loop! ****");
 // TODO: change the for loop to iterate up to 10.
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 11; i++) {
   console.log(`Now, i is ${i}.`);
 }
 
 // TODO: make a for loop that counts up to 25.
-
+for (let d = 0; d<26; d++){
+  console.log(d);
+}
 // TODO: make a for loop that counts up to 50.
+for (let z = 0; z<51; z++){
+  console.log(z);
+}
 
 // TODO: make a for loop that counts up to 100.
+for (let y = 0; y<101; y++){
+  console.log(y);
+}
 
 // TODO: make a for loop that counts up to 1001.
+for (let d = 0; d<1002; d++){
+  console.log(d);
+}
 
 // TODO: Add, Commit, Push!
 // TODO: Comment out the above so that they don't bother you as you do the rest of the assignment.
