@@ -18,14 +18,26 @@ console.log(`2. sum after ++ 5 times`);
 
 // TODO: reset sum to 0, then add 1 to sum 25 times.
 sum = 0;
-
+for (let i=0; i<25; i++){
+  sum = sum + 1;
+  }
+console.log(sum);
 
 
 // TODO: reset sum to 0, then add 1 to sum 50 times.
-
-
+sum = 0;
+for (let i=0; i<50; i++){
+  sum = sum + 1;
+}
+console.log (sum);
 
 // TODO: reset sum to 0, then add 1 to sum 1000000 times.
+sum = 0;
+for(let i=0; i<1000000; i++){
+  sum = sum + 1;
+}
+console.log(sum);
+
 
 // Example: 
 // We can also use the variable i in our for loop to add all the numbers from 1 to 10;
@@ -37,8 +49,25 @@ for(let i=0; i<11; i++) {
 console.log(`sum of numbers 1-10: ${sum}`);
 
 // TODO: add the numbers from 0 to 25
+sum = 0;
+for(let i=0; i<26; i++){
+  sum = sum + i;
+}
+console.log(sum);
 // TODO: add the numbers from 0 to 50 
+sum = 0;
+for(let i=0; i<50; i++){
+  sum = sum +i;
+}
+console.log(sum);
+
 // TODO: add the numbers from 0 to 9999999
+sum = 0;
+for(let i=0; i<9999999; i++){
+  sum = sum +i;
+}
+console.log(sum);
+
 
 
 // Example: we don't have to start at 1! We can add the numbers from 100-200:
@@ -49,8 +78,24 @@ for(let i=100; i<201; i++) {
 console.log(`sum of numbers 100-200: ${sum}`);
 
 // TODO: add the numbers from 5 to 10
+sum = 0;
+for(let i=5; i<11; i++){
+  sum = sum + i;
+}
+console.log(sum);
 // TODO: add the numbers from 55 to 65 
+sum = 0;
+for(let i=55; i<66; i++){
+  sum = sum + i;
+}
+console.log(sum);
+
 // TODO: add the numbers from 999 to 8000000
+sum = 0;
+for(let i=999; i<8000001; i++){
+  sum = sum + i;
+}
+console.log(sum);
 
 // Note: we can combine an accumulator and an array.
 // Example: what is the total number of characters in all the animals?
