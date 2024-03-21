@@ -96,7 +96,17 @@ for (let i = 0; i < 4; i++) {
 // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
 
+let zooAnimals = ["zebra", "lion", "tiger", "giraffe"];
+let total = 0;
+for (let i=0; i<5; i++){
+  console.log(zooAnimals);
+} 
+
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
+let teams = ["Eagles", "Giants", "Cowboys", "Commanders"];
+for (let i = 0; i<4; i++){
+  console.log(teams);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: make a new array of anything else. Use a loop to print them all to the console.

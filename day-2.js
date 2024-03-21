@@ -117,11 +117,24 @@ console.log(`The average length of the word is: ${average}`);
 total = 0;
 let prices = [1.01, 10.99, 4.32, 1000.03, 4.00];
 // TODO: add up all the prices in the array "prices".
+for (let i = 0; i<prices[i]; i++){
+  total = total + prices[i];
+  console.log(total);
+}
+console.log("****totalprice****");
+console.log(total);
 
 
-
-console.log(`The total number of letters is: ${total}`);
 
 // TODO: copy your arrays from day-1.
+
+let zooAnimals = ["zebra", "lion", "tiger", "shark"];
+total = 0;
+for (let z = 0; z<zooAnimals.length; z++){
+   total = total + zooAnimals[z].length;
+  }
+//console.log(zooAnimals);
 // find the total characters in each.
-// find the average length of each word.
+console.log(total);
+// find the average length of each word
+console.log(total/4);
